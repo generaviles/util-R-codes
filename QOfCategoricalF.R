@@ -1,6 +1,6 @@
 QOfCategoricalF=function(datasetCF){
   #codigo para hacer las pruebas
-  datasetCF<- cbind.data.frame(Genero=d_preproc[,3],d_preproc[,26:30],CofS=d_preproc[,57])
+  #datasetCF<- cbind.data.frame(Genero=d_preproc[,3],d_preproc[,26:30],CofS=d_preproc[,57])
   
   
   
