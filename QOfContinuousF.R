@@ -11,8 +11,8 @@ QOfContinuousF=function(datasetCF){
   Median<-apply(datasetCF,2,FUN = function(x) round(quantile(as.numeric(x),.5),digits = 2))
   Qrt3<-apply(datasetCF,2,FUN = function(x) round(quantile(as.numeric(x),.75),digits = 2))
   Max <-apply(datasetCF,2,FUN = function(x) max(x))
-  Mean<-apply(datasetCF,2,FUN = function(x) round(sd(as.numeric(x)),digits = 2))
-  Sdev<-apply(datasetCF,2,FUN = function(x) round(mean(as.numeric(x)),digits = 2))
+  Mean<-apply(datasetCF,2,FUN = function(x) round(mean(as.numeric(x)),digits = 2))
+  Sdev<-apply(datasetCF,2,FUN = function(x) round(sd(as.numeric(x)),digits = 2))
   
   TQContinuousFeatures<-data.frame(Count,Miss,Card,Min,Qrt1,Median,Qrt3,Max,Mean,Sdev)
   
