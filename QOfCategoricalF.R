@@ -4,6 +4,8 @@ QOfCategoricalF=function(datasetCF){
   
   
   
+  #datasetCF<-responses[,28:48]
+  
   calc_mode=function(x,primsec=1){
     #temp<-table(datasetC$SH3)
     temp<-table(x)
