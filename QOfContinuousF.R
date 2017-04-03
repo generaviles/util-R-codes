@@ -1,3 +1,8 @@
+#Autor: Arturo Jesús Laflor Hernández
+#Fecha: 23-03-2017
+#Descripción: Genera una tabla con información para el análisis de 
+#calidad de un dataframe con variables continuas
+
 QOfContinuousF=function(datasetCF){
   #codigo para hacer las pruebas
   #datasetCF<- cbind.data.frame(DD1=d_preproc[,2],d_preproc[,10:13],d_preproc[,58:62])
