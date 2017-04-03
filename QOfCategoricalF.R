@@ -1,8 +1,10 @@
+#Autor: Arturo Jesús Laflor Hernández
+#Fecha: 23-03-2017
+#Descripción: Genera una tabla con información para el análisis de 
+#calidad de un dataframe con variables categóricas
 QOfCategoricalF=function(datasetCF){
   #codigo para hacer las pruebas
   #datasetCF<- cbind.data.frame(Genero=d_preproc[,3],d_preproc[,26:30],CofS=d_preproc[,57])
-  
-  
   
   #datasetCF<-responses[,28:48]
   
